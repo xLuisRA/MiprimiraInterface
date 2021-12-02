@@ -12,7 +12,6 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_Dialog(object):
-
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(708, 645)
@@ -21,8 +20,9 @@ class Ui_Dialog(object):
         self.pushButton.setMouseTracking(False)
         self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(370, 190, 81, 31))
+        self.label.setGeometry(QtCore.QRect(370, 190, 121, 31))
         self.label.setObjectName("label")
+
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
