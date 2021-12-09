@@ -1,8 +1,9 @@
-import var
-class Eventos():
+import sys
 
-    def Saludo():
+class Eventos:
+    def salir():
         try:
-            var.ui.label.setText('Has pulsado el buty')
+            sys.exit()
         except Exception as error:
-            print('Error: '%str(error))
+            print("Error %s: " % str(error))
+
